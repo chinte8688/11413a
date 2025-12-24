@@ -1,12 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>南臺灣五大在地美食指南</title>
-    <!-- 載入 Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- 設定字體為 Inter (常用現代字體) -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
@@ -24,91 +22,64 @@
 <body class="p-4 sm:p-8">
 
     <div class="max-w-4xl mx-auto">
-        <!-- 標題區塊 -->
         <header class="text-center mb-10 p-6 bg-white shadow-xl rounded-xl">
             <h1 class="text-4xl font-extrabold text-blue-800 mb-2">南臺灣五大在地美食精選</h1>
             <p class="text-xl text-gray-600">台南、高雄、屏東，舌尖上的南國風情</p>
         </header>
 
-        <!-- 美食清單容器 -->
         <main class="space-y-12">
 
-            <!-- 1. 台南：牛肉湯 -->
-            <div class="food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row items-start">
+            <a href="beef_soup.html" class="block food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row items-start">
                 <img class="food-image rounded-lg mb-4 md:mb-0 md:w-5/12 lg:w-4/12 md:mr-6 shadow-md" 
-                     src="001.png?text=台南牛肉湯" 
-                     alt="台南牛肉湯圖片佔位符"
+                     src="001.png" 
+                     alt="台南牛肉湯"
                      onerror="this.onerror=null; this.src='https://placehold.co/600x400/2d86c8/fff?text=無法載入圖片';">
                 
                 <div class="md:w-7/12 lg:w-8/12">
                     <h2 class="text-2xl font-bold text-blue-700 mb-2">1. 台南：牛肉湯 (Tainan: Beef Soup)</h2>
                     <p class="text-gray-700 leading-relaxed">台南牛肉湯是府城特有的清晨或深夜滋味。這道料理的精髓在於其「鮮」。店家選用當日清晨宰殺的新鮮溫體牛肉，將薄切的生牛肉片放入碗中，再以滾燙的牛骨高湯沖淋。高湯的熱度瞬間將牛肉燙至五至七分熟，保持了肉質的粉嫩和軟嫩，口感極佳。</p>
-                    <p class="text-gray-700 leading-relaxed mt-2">湯頭濃郁卻清甜，帶有淡淡的肉香和蔬菜的甘甜，完全沒有腥味。在地人通常會搭配一碗白飯或肉燥飯，並將切好的薑絲放入特製的醬油膏中作為沾醬，是開啟台南美好一天的最佳方式。</p>
+                    <p class="text-gray-700 leading-relaxed mt-2 text-blue-500 font-medium italic">點擊查看歷史與食譜 →</p>
                 </div>
-            </div>
+            </a>
 
-            <!-- 2. 台南：蝦仁飯 -->
-            <div class="food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row-reverse items-start">
+            <a href="shrimp_rice.html" class="block food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row-reverse items-start">
                 <img class="food-image rounded-lg mb-4 md:mb-0 md:w-5/12 lg:w-4/12 md:ml-6 shadow-md" 
-                     src="002.png?text=台南蝦仁飯" 
-                     alt="台南蝦仁飯圖片佔位符"
+                     src="002.png" 
+                     alt="台南蝦仁飯"
                      onerror="this.onerror=null; this.src='https://placehold.co/600x400/de734c/fff?text=無法載入圖片';">
                 
                 <div class="md:w-7/12 lg:w-8/12">
                     <h2 class="text-2xl font-bold text-orange-600 mb-2">2. 台南：蝦仁飯 (Tainan: Shrimp Rice)</h2>
-                    <p class="text-gray-700 leading-relaxed">蝦仁飯是台南的另一項經典小吃，與北部的滷肉飯、雞肉飯各有特色。台南蝦仁飯通常選用新鮮的火燒蝦（一種在地特有的小蝦），先用特製的醬汁或高湯將米飯炊煮入味，使米飯本身就帶著蝦湯的鮮美香氣和鹹甜底味。</p>
-                    <p class="text-gray-700 leading-relaxed mt-2">蝦仁則會經過快速爆炒或烹煮後鋪在飯上，保持Q彈口感。這道飯的特色是味道層次豐富，米粒分明且吸飽了海鮮的精華。有些店家還會在飯上加上一顆半熟的鴨蛋黃，拌入後更加香濃滑順。</p>
+                    <p class="text-gray-700 leading-relaxed">蝦仁飯是台南的另一項經典小吃，與北部的滷肉飯、雞肉飯各有特色。台南蝦仁飯通常選用新鮮的火燒蝦，先用特製的醬汁或高湯將米飯炊煮入味，使米飯本身就帶著蝦湯的鮮美香氣。</p>
+                    <p class="text-gray-700 leading-relaxed mt-2 text-orange-500 font-medium italic">點擊查看歷史與食譜 →</p>
                 </div>
-            </div>
+            </a>
 
-            <!-- 3. 高雄：鴨肉飯 -->
-            <div class="food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row items-start">
+            <a href="duck_rice.html" class="block food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row items-start">
                 <img class="food-image rounded-lg mb-4 md:mb-0 md:w-5/12 lg:w-4/12 md:mr-6 shadow-md" 
-                     src="003.png?text=高雄鴨肉飯" 
-                     alt="高雄鴨肉飯圖片佔位符"
+                     src="003.png" 
+                     alt="高雄鴨肉飯"
                      onerror="this.onerror=null; this.src='https://placehold.co/600x400/9b59b6/fff?text=無法載入圖片';">
                 
                 <div class="md:w-7/12 lg:w-8/12">
                     <h2 class="text-2xl font-bold text-purple-700 mb-2">3. 高雄：鴨肉飯 (Kaohsiung: Duck Rice)</h2>
-                    <p class="text-gray-700 leading-relaxed">鴨肉飯是高雄最具代表性的庶民美食之一。與其他地方常見的鴨肉切盤不同，高雄的鴨肉飯是將油亮的米飯上鋪滿了手工切片的嫩鴨肉，再淋上由鴨油、醬油等調製而成的獨門滷汁。</p>
-                    <p class="text-gray-700 leading-relaxed mt-2">鴨肉多選用肉質結實、油脂適中的鴨種，經過煙燻或燉煮後，肉質軟嫩且帶有獨特的香氣。一口飯、一口肉，搭配滷汁的鹹香，滋味濃郁且滿足。許多知名的鴨肉飯店家，如「鴨肉珍」或「七賢鴨肉飯」，都是高雄在地人從小吃到大的記憶味道。</p>
+                    <p class="text-gray-700 leading-relaxed">鴨肉飯是高雄最具代表性的庶民美食之一。與其他地方常見的鴨肉切盤不同，高雄的鴨肉飯是將油亮的米飯上鋪滿了手工切片的嫩鴨肉，再淋上獨門滷汁。</p>
+                    <p class="text-gray-700 leading-relaxed mt-2 text-purple-500 font-medium italic">點擊查看歷史與食譜 →</p>
                 </div>
-            </div>
+            </a>
 
-            <!-- 4. 高雄：旗魚黑輪 -->
-            <div class="food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row-reverse items-start">
+            <a href="fish_tempura.html" class="block food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row-reverse items-start">
                 <img class="food-image rounded-lg mb-4 md:mb-0 md:w-5/12 lg:w-4/12 md:ml-6 shadow-md" 
-                     src="004.png?text=高雄旗魚黑輪" 
-                     alt="高雄旗魚黑輪圖片佔位符"
+                     src="004.png" 
+                     alt="高雄旗魚黑輪"
                      onerror="this.onerror=null; this.src='https://placehold.co/600x400/27ae60/fff?text=無法載入圖片';">
                 
                 <div class="md:w-7/12 lg:w-8/12">
-                    <h2 class="text-2xl font-bold text-green-700 mb-2">4. 高雄：旗魚黑輪 (Kaohsiung: Swordfish Tempura/Black Oden)</h2>
-                    <p class="text-gray-700 leading-relaxed">旗魚黑輪是高雄，特別是旗津海岸一帶的特色小吃。它其實是將新鮮的旗魚漿（或其他魚漿）揉製成條狀或捲狀，再以高溫油炸而成。由於旗魚肉質鮮甜，製成的黑輪口感彈牙且充滿海味。</p>
-                    <p class="text-gray-700 leading-relaxed mt-2">旗魚黑輪最特別的吃法，是在魚漿中包入四分之一顆水煮蛋後再油炸，讓單純的魚漿增添了蛋香和口感層次。這項小吃通常搭配芥末醬或甜辣醬享用，是遊覽高雄海線時邊走邊吃的絕佳選擇。</p>
+                    <h2 class="text-2xl font-bold text-green-700 mb-2">4. 高雄：旗魚黑輪 (Kaohsiung: Swordfish Tempura)</h2>
+                    <p class="text-gray-700 leading-relaxed">旗魚黑輪是高雄特色小吃。將新鮮旗魚漿揉製成條狀油炸，最特別的吃法是在魚漿中包入四分之一顆水煮蛋，讓單純的魚漿增添了蛋香和口感層次。</p>
+                    <p class="text-gray-700 leading-relaxed mt-2 text-green-500 font-medium italic">點擊查看歷史與食譜 →</p>
                 </div>
-            </div>
+            </a>
 
-            <!-- 5. 屏東：萬巒豬腳 -->
-            <div class="food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row items-start">
-                <img class="food-image rounded-lg mb-4 md:mb-0 md:w-5/12 lg:w-4/12 md:mr-6 shadow-md" 
-                     src="005.png?text=屏東萬巒豬腳" 
-                     alt="屏東萬巒豬腳圖片佔位符"
-                     onerror="this.onerror=null; this.src='https://placehold.co/600x400/f39c12/fff?text=無法載入圖片';">
-                
-                <div class="md:w-7/12 lg:w-8/12">
-                    <h2 class="text-2xl font-bold text-yellow-700 mb-2">5. 屏東：萬巒豬腳 (Pingtung: Wanluan Pig Knuckle)</h2>
-                    <p class="text-gray-700 leading-relaxed">萬巒豬腳是屏東縣萬巒鄉最知名的代表性美食，也是聞名全台的客家料理。與傳統紅燒豬腳不同，萬巒豬腳最大的特色是「不油膩、皮Q肉嫩」。</p>
-                    <p class="text-gray-700 leading-relaxed mt-2">製作過程會先將豬腳用熱水燙煮，再用特製醬料（通常包含醬油、蒜頭、糖、中藥材等）滷煮或浸泡。滷好的豬腳外皮呈現誘人的琥珀色，外皮Q彈有嚼勁，肥肉入口即化，瘦肉軟而不柴。食用時，一定要沾上店家特製的蒜蓉醬油膏，那蒜香和醬汁的鹹甜，與豬腳的膠質完美結合，令人回味無窮。</p>
-                </div>
-            </div>
-
-        </main>
-
-        <!-- 頁尾區塊 -->
-        <footer class="text-center mt-12 pt-6 border-t border-gray-200 text-gray-500">
-            <p>美食探索之旅，從南臺灣開始！</p>
-        </footer>
-    </div>
-</body>
-</html>
+            <a href="pig_knuckle.html" class="block food-card bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.01] flex flex-col md:flex-row items-start">
+                <img class="food-image rounded-lg mb-4 md:mb-0 md:w-5/12 lg:w-4/12 md:mr-6 shadow
